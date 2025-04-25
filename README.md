@@ -1,5 +1,7 @@
 ### **Flutter To-Do App** 📱  
 ✅ A sleek, cross-platform **To-Do List** app built with **Flutter** to help you manage tasks effortlessly. Perfect for learning Flutter basics or expanding your UI/state management skills!  
+![Group 1](https://github.com/user-attachments/assets/cf68c4b4-a63a-450b-bbf7-0d84abafc225)
+
 
 #### **Features**  
 ✔ Add, edit, and delete tasks  
@@ -35,21 +37,7 @@
 
 ---
 
-### **Screenshots (Optional)**  
-🖼️ Add a screenshot like this (replace with your actual UI):  
-![App Preview](https://via.placeholder.com/300x600?text=To-Do+App+Preview)  
-
-🔗 **Live Demo** (if deployed):  
-[https://your-username.github.io/flutter-todo](https://your-username.github.io/flutter-todo)  
-
----
-
 ### **Contribute**  
 🤝 Open to contributions! Report bugs, suggest features, or submit PRs.  
 
----  
-
-### **Custom Notes**  
-- Replace `[your-username]` and placeholder links.  
-- Add **emoji dividers** (like 📌 or ✨) for visual appeal.  
-- If your app uses Firebase/APIs, mention it (e.g., *"Backed by Firebase Auth & Cloud Firestore"*).  
+--- 
