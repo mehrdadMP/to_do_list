@@ -106,7 +106,7 @@ class _EditTaskScreenState extends State<EditTaskScreen> {
               decoration: InputDecoration(
                   label: Text(
                 'Add a task for today...',
-                style: Theme.of(context).textTheme.bodyText1!.apply(fontSizeFactor: 1.2),
+                style: Theme.of(context).textTheme.bodyLarge!.apply(fontSizeFactor: 1.2),
               )),
             )
           ],

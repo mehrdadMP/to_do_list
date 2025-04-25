@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const primaryTextColor = Color(0xff1D2830);
-    return MaterialApp(
+    return MaterialApp(debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
           // This is the theme of your application.
@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
           // Notice that the counter didn't reset back to zero; the application
           // is not restarted.
           textTheme: GoogleFonts.poppinsTextTheme(const TextTheme(
-              headline6: TextStyle(fontWeight: FontWeight.bold))),
+              titleLarge: TextStyle(fontWeight: FontWeight.bold))),
           inputDecorationTheme: const InputDecorationTheme(
             floatingLabelBehavior: FloatingLabelBehavior.never,
               labelStyle: TextStyle(color: secondaryTextColor),
@@ -105,7 +105,7 @@ class HomeScreen extends StatelessWidget {
                       children: [
                         Text(
                           'To Do List',
-                          style: themeData.textTheme.headline6!
+                          style: themeData.textTheme.titleLarge!
                               .apply(color: themeData.colorScheme.onPrimary),
                         ),
                         Icon(
@@ -177,7 +177,7 @@ class HomeScreen extends StatelessWidget {
                                       children: [
                                         Text(
                                           'Today',
-                                          style: themeData.textTheme.headline6!
+                                          style: themeData.textTheme.titleLarge!
                                               .apply(fontSizeFactor: 0.9),
                                         ),
                                         Container(
